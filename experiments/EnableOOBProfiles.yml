@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ea059ca9b1c2ede4d95bcb5
+type: experiment
+name: Enable OOB Profiles
+flag: EnableOOBProfiles
+value: true
