@@ -1,0 +1,10 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ea0591c9b1c2e65a195a749
+type: experiment
+name: Apply Jira Epic As Milestone
+flag: ApplyJiraEpicAsMilestone
+conditions:
+  - group:
+      name: QAUA
+    value: true
+value: false
