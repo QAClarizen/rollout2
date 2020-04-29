@@ -1,0 +1,14 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ea059136d2786bc951140a7
+type: experiment
+name: Api Calls Throttling Bypass Quota Limit
+flag: ApiCallsThrottlingBypassQuotaLimit
+conditions:
+  - group:
+      name:
+        - ju_julialiskot
+        - SMSC
+        - QAUA
+        - smsc clone refresh testing 6
+    value: false
+value: false
