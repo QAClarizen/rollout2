@@ -1,0 +1,17 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ea05a07ff9da9444f4c28b3
+type: experiment
+name: Enable Share Point File Upload Via Customization
+flag: EnableSharePointFileUploadViaCustomization
+conditions:
+  - group:
+      name:
+        - sksk
+        - sksksk
+    value: false
+  - group:
+      name:
+        - sksksksk
+        - Clarizen Int
+    value: true
+value: false
