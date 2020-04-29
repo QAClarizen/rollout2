@@ -1,0 +1,10 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ea059969a4356af3218f697
+type: experiment
+name: Enable Cache Sync Merge Before Publish
+flag: EnableCacheSyncMergeBeforePublish
+conditions:
+  - group:
+      name: TestDirtyFlag231757
+    value: false
+value: false
