@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ea059de9b1c2e1b4295bfaa
+type: experiment
+name: Enable O Auth JWT
+flag: EnableOAuthJWT
+value: false
