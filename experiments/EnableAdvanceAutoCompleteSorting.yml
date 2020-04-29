@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ea059779b1c2ef3ee95b3d5
+type: experiment
+name: Enable Advance Auto Complete Sorting
+flag: EnableAdvanceAutoCompleteSorting
+value: true
