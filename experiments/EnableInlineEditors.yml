@@ -1,0 +1,10 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ea059ae9b1c2e3fa295b8aa
+type: experiment
+name: Enable Inline Editors
+flag: EnableInlineEditors
+conditions:
+  - group:
+      name: EINAT78
+    value: true
+value: true
