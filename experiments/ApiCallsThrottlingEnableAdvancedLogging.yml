@@ -1,0 +1,13 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ea05917ff9da95bd04c0bda
+type: experiment
+name: Api Calls Throttling Enable Advanced Logging
+flag: ApiCallsThrottlingEnableAdvancedLogging
+conditions:
+  - group:
+      name:
+        - SMSC
+        - QAUA
+        - smsc clone refresh testing 6
+    value: true
+value: false
