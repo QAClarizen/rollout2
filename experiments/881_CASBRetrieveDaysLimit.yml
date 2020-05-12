@@ -1,0 +1,27 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ebb14bf922b426b58507f8b
+type: experiment
+name: 881_ CASB Retrieve Days Limit
+flag: 881_CASBRetrieveDaysLimit
+availableValues:
+  - '90'
+conditions:
+  - group:
+      name:
+        - 881_RnD
+        - 881_QA
+        - 881_Clarizen Solution Repository
+        - 881_Internal Template Repository
+        - 881_Product B
+        - 881_Product A
+        - 881_Operations
+        - 881_Project Management
+        - 881_IT
+        - 881_BrothersCorp
+        - 881_Sales
+        - 881_Tenderson
+        - 881_Tenderson IT
+        - 881_Customer Support
+        - 881_Template Repository
+    value: '90'
+value: '90'
